@@ -20,14 +20,19 @@ Content
     width: 50%;
 }
 
+/*+--------------------+*/
+/*|      Content       |*/
+/*+--------------------+*/
+
 .content:first-child {
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .content {
-    width: 20%;
-    margin-left: 5%;
+    width: 25%;
+    margin-left: 2%;
     margin-top: 5%;
+    margin-bottom: 5%;
     height: auto;
     float: left;
     background-color: rgba(0, 0, 0, 0.5);
@@ -36,11 +41,12 @@ Content
 }
 
 .content img {
-    width: 100%;   
+    width: 100%;  
 }
 
-.content h2 {
+.content h2 a {
     text-transform: uppercase;
+    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
     font-size: 21px;
@@ -57,4 +63,8 @@ Content
 .content p a {
     font-family: inherit;
     color: inherit;
+}
+
+main {
+    overflow: auto;
 }
