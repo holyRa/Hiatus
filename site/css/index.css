@@ -1,0 +1,60 @@
+/* 
+This file contains CSS for the Home page. This includes:
+
+Divider image
+Content
+
+
+*/
+
+#dividerimg {
+    width: 100%;
+    display: block; /* Fixes the weird space thing */   
+}
+
+#dividerimglogo {
+    position: absolute;    
+    left: 50%;
+    top: 27%;
+    transform: translateX(-50%);
+    width: 50%;
+}
+
+.content:first-child {
+    margin-left: 15%;
+}
+
+.content {
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: auto;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.content img {
+    width: 100%;   
+}
+
+.content h2 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 21px;
+    letter-spacing: 1.25px;
+    
+    color: #5B6073;
+}
+
+.content p {
+    font-family: 'Raleway', sans-serif;
+    color: #5B6073;
+}
+
+.content p a {
+    font-family: inherit;
+    color: inherit;
+}
