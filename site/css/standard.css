@@ -2,7 +2,6 @@
 This CSS file contains CSS for:
 Header
 Body
-Text
 Logos
 Footer
 --WIP--
@@ -70,21 +69,6 @@ body {
     margin-top: 0;
 }
 
-
-/*+--------------------+*/
-/*|        Text        |*/
-/*+--------------------+*/
-
-p {
-    font-family: 'Raleway', sans-serif;
-}
-
-a {
-    font-family: inherit;
-    text-decoration: none;
-    color: inherit;
-}
-
 /*+--------------------+*/
 /*|       Logos        |*/
 /*+--------------------+*/
@@ -94,18 +78,6 @@ a {
     width: auto;
 }
 
-/*+--------------------+*/
-/*|      Footer        |*/
-/*+--------------------+*/
-
 footer {
-    margin-top: 0;
-    padding: 20px;
-    background-color: #5b6073; 
-}
-
-footer p {
-    text-align: center;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 2000px;
 }

@@ -51,11 +51,18 @@ Content
     font-weight: 200;
     font-size: 21px;
     letter-spacing: 1.25px;
+    
     color: #5B6073;
 }
 
 .content p {
+    font-family: 'Raleway', sans-serif;
     color: #5B6073;
+}
+
+.content p a {
+    font-family: inherit;
+    color: inherit;
 }
 
 main {
