@@ -5,6 +5,7 @@ Body
 Text
 Logos
 Footer
+Divider image
 --WIP--
 */
 
@@ -54,6 +55,23 @@ nav ul {
 }
 
 /*+--------------------+*/
+/*|    Divider image   |*/
+/*+--------------------+*/
+
+#dividerimg {
+width: 100%;
+display: block; /* Fixes the weird space thing */   
+}
+
+#dividerimglogo {
+    position: absolute;    
+    left: 50%;
+    top: 27%;
+    transform: translateX(-50%);
+    width: 50%;
+}
+
+/*+--------------------+*/
 /*|        Body        |*/
 /*+--------------------+*/
 
@@ -86,6 +104,26 @@ a {
     color: inherit;
 }
 
+h2 {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 21px;
+    letter-spacing: 1.25px;
+    color: #5B6073;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.25px;
+    color: #5B6073;
+}
+
 /*+--------------------+*/
 /*|       Logos        |*/
 /*+--------------------+*/
@@ -102,7 +140,7 @@ a {
 footer {
     margin-top: 0;
     padding: 20px;
-    background-color: #5b6073; 
+    background-color: #5B6073; 
 }
 
 footer p {

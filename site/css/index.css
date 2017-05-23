@@ -1,24 +1,10 @@
 /* 
 This file contains CSS for the Home page. This includes:
 
-Divider image
 Content
-
-
 */
 
-#dividerimg {
-    width: 100%;
-    display: block; /* Fixes the weird space thing */   
-}
 
-#dividerimglogo {
-    position: absolute;    
-    left: 50%;
-    top: 27%;
-    transform: translateX(-50%);
-    width: 50%;
-}
 
 /*+--------------------+*/
 /*|      Content       |*/
