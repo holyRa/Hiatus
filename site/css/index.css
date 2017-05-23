@@ -35,9 +35,11 @@ Content
     margin-bottom: 5%;
     height: auto;
     float: left;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    padding: 20px;
+    /*background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;*/ /*Undecided - maybe another color??? */
+    
+    
+    position: relative;
 }
 
 .content img {
@@ -58,6 +60,16 @@ Content
     color: #5B6073;
 }
 
+.content:not(:last-child) p:last-child {
+    position: absolute;
+    
+    bottom: 0;
+}
+
 main {
-    overflow: auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    overflow: hidden;
 }
