@@ -48,6 +48,7 @@ nav ul {
 }
 
 #navlogo {
+    margin-left: 1%;
     float: left;
     object-fit: cover;
 }
