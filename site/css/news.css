@@ -1,0 +1,43 @@
+/* 
+This file contains CSS for the Home page. This includes:
+
+Articles
+*/
+
+main {
+    overflow: hidden;
+}
+
+article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+article:nth-child(odd) {
+    float: left; 
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+article:nth-child(even) {
+    float: right; 
+    margin-right: 15%;
+}
+
+article img {
+    width: 100%;
+}
+
+article p {
+    color: #5B6073;
+}
+
+.videobutton {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #5B6073;
+    
+    float: left;
+    margin: auto;
+}
