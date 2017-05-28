@@ -41,3 +41,21 @@ article p {
     padding: 5px;
     border: 2px #5B6073 solid;
 }
+
+/* 'Featherlight lightbox scrolling fix */
+
+.featherlight .featherlight-content {
+    border: 0;
+    padding: 0;
+}
+
+.featherlight .featherlight-image {
+    border: 20px solid #fff;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .featherlight .featherlight-image {
+        border: 10px solid #fff;
+    }
+}
