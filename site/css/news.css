@@ -16,13 +16,13 @@ article {
 
 article:nth-child(odd) {
     float: left; 
-    margin-left: 15%;
-    margin-right: 10%;
+    margin-left: 17.5%;
+    margin-right: 5%;
 }
 
 article:nth-child(even) {
     float: right; 
-    margin-right: 15%;
+    margin-right: 17.5%;
 }
 
 article img {
@@ -38,6 +38,6 @@ article p {
     font-family: "Raleway", sans-serif;
     color: #5B6073;
     
-    float: left;
-    margin: auto;
+    padding: 5px;
+    border: 2px #5B6073 solid;
 }
