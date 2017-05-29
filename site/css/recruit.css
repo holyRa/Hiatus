@@ -1,0 +1,77 @@
+/*+--------------------+*/
+/*|       Boxes        |*/
+/*+--------------------+*/
+
+.wrapper {
+    overflow: hidden;
+}
+
+iframe {
+    width: 40%;
+    margin-left: 20%;
+    margin-right: 2%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+    background: #B7B7B7;
+    
+    border: none;
+}
+
+aside {
+    width: 15%;
+    margin-top: 30px;
+    margin-right: 20%;
+    margin-left: 0;
+    padding: 0px;
+    float: left;
+    background: #B7B7B7;
+}
+
+
+/*+--------------------+*/
+/*|        Text        |*/
+/*+--------------------+*/
+
+h3 {
+    background-color: #5B6073;
+
+    margin: 0 0 10px 0;
+    padding: 15px 11.5px 15px 11.5px;
+
+    width: calc(100% - 23px); /* Make sure h3 doesn't use space outside of box */
+    letter-spacing: 1px;
+    
+    text-align: center;
+    color: #B7B7B7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*+--------------------+*/
+/*|     Class Table    |*/
+/*+--------------------+*/
+
+table {
+    width: calc(100% - 8px);
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+td {
+    width: calc(100%/6);
+}
+
+.classicon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: calc(50% - 10px);
+}
+
+.specicon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: calc(50% - 10px);
+}
+
