@@ -45,7 +45,6 @@ Content
 
 .content:not(:last-child) p:last-child { /* I love CSS selectors. */
     position: absolute;
-    
     bottom: 0;
 }
 
