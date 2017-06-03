@@ -6,26 +6,6 @@
     overflow: hidden;
 }
 
-main {
-    width: 40%;
-    margin-left: 20%;
-    margin-right: 2%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    float: left;
-    background: #B7B7B7;
-}
-
-aside {
-    width: 18%;
-    margin-top: 30px;
-    margin-right: 20%;
-    padding: 0px;
-    float: left;
-    background: #B7B7B7;
-}
-
-
 /*+--------------------+*/
 /*|        Text        |*/
 /*+--------------------+*/
