@@ -1,0 +1,84 @@
+/*+--------------------+*/
+/*|       Boxes        |*/
+/*+--------------------+*/
+
+main {
+    width: 75%;
+    margin: 20px auto 20px auto;
+    overflow: hidden;
+}
+
+.player {
+    float: left;
+    position: relative;
+    width: 20%;
+    overflow: hidden;
+    margin-right: 0%;
+    
+    margin-bottom: 25px;
+}
+
+.player:not(.firstplayer) {
+    margin-left: 5%;
+}
+/*+--------------------+*/
+/*|        Text        |*/
+/*+--------------------+*/
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #5B6073;
+    clear: both;
+}
+
+.player h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.player p {
+    float: left;
+    margin-top: 0px;
+    color: #5B6073;
+}
+
+/*+--------------------+*/
+/*|       Images       |*/
+/*+--------------------+*/
+
+.armory img {
+    float: right;
+    width: 20px;
+    height: 20px;
+    
+    -webkit-filter: grayscale(0%); /* Make sure image isn't greyscaled when it's not hovered */
+    -webkit-transition: .3s ease-in-out; /* Fade over .1s */
+    -moz-filter: grayscale(0%); 
+    -moz-transition: .3s ease-in-out;
+    -o-filter: grayscale(0%); 
+    -o-transition: .3s ease-in-out;
+}
+
+.armory img:hover { /* Allow fading of image to greyscale on hover */
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    -moz-filter: grayscale(100%); 
+    -moz-transition: .3s ease-in-out;
+    -o-filter: grayscale(100%); 
+    -o-transition: .3s ease-in-out;
+}
+
+.playericon {
+    float: left;
+    margin-right: 20px;
+}
+
+.spec {
+    position: absolute;
+    bottom: 17%;
+    left: 104px;
+    
+    width: 20px;
+    height: 20px;
+}
+
