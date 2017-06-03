@@ -1,9 +1,0 @@
-* Finish Home
-* Make Recruitment page
-* Make News page
-* Make Roster page
-    * Understand Armory API
-* Make About Us page
-* Make Contact Us page
-    * Social Media?
-    * Mail account?
