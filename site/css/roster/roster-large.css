@@ -1,0 +1,7 @@
+.player:not(:nth-child(4n - 3)) {
+    margin-left: 5%;
+}
+
+.player {
+    width: 20%;
+}

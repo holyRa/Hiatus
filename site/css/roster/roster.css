@@ -11,16 +11,13 @@ main {
 .player {
     float: left;
     position: relative;
-    width: 20%;
     overflow: hidden;
     margin-right: 0%;
     
     margin-bottom: 25px;
 }
 
-.player:not(.firstplayer) {
-    margin-left: 5%;
-}
+
 /*+--------------------+*/
 /*|        Text        |*/
 /*+--------------------+*/

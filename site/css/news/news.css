@@ -9,34 +9,6 @@ main {
     margin-bottom: 80px;
 }
 
-.row {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-
-    overflow: hidden;
-}
-
-article {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 30%;
-    
-    display: flex;
-    flex-direction: column;
-}
-
-.row article:nth-child(odd) {
-    float: left; 
-    margin-left: 17.5%;
-    margin-right: 5%;
-}
-
-.row article:nth-child(even) {
-    float: right; 
-    margin-right: 17.5%;
-}
-
 article img {
     width: 100%;
 }

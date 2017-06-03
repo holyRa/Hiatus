@@ -10,68 +10,6 @@ Divider image
 */
 
 /*+--------------------+*/
-/*|       Header       |*/
-/*+--------------------+*/
-
-header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 1);
-    margin: 0;
-    padding: 8px;
-    
-    z-index: 1;
-    
-    border-bottom-color: #5B6073;
-    border-bottom-width: thin;
-    border-bottom-style: solid;
-}
-    
-nav ul {
-    margin-right: 8%;
-    float: right;
-}
-
-.navitem {
-    display: inline;
-    margin-right: 10px;
-}
-
-.navitem a {
-    text-decoration: none;
-    text-transform: uppercase;
-    
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    color: #5B6073;
-}
-
-#navlogo {
-    margin-left: 1%;
-    float: left;
-    object-fit: cover;
-}
-
-/*+--------------------+*/
-/*|    Divider image   |*/
-/*+--------------------+*/
-
-#dividerimg {
-width: 100%;
-display: block; /* Fixes the weird space thing */   
-}
-
-#dividerimglogo {
-    position: absolute;    
-    left: 50%;
-    top: 27%;
-    transform: translateX(-50%);
-    width: 50%;
-}
-
-/*+--------------------+*/
 /*|        Body        |*/
 /*+--------------------+*/
 
