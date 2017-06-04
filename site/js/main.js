@@ -1,8 +1,3 @@
-/*
-This file contains JS for:
-Header
-*/
-
 var scrollThreshold = $("header").outerHeight();
 $(window).scroll(function(event) {
 

@@ -1,3 +1,4 @@
+//Fade video button to whiteish on hover
 $(".videobutton").mouseover(function() {
     $(this).stop().animate({ color: "#99A1BF", borderColor: "#99A1BF"}, 100);
 }).mouseout(function() {

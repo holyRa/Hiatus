@@ -49,7 +49,7 @@ h1 {
     height: 20px;
     
     -webkit-filter: grayscale(0%); /* Make sure image isn't greyscaled when it's not hovered */
-    -webkit-transition: .3s ease-in-out; /* Fade over .1s */
+    -webkit-transition: .3s ease-in-out; /* Fade over .3s */
     -moz-filter: grayscale(0%); 
     -moz-transition: .3s ease-in-out;
     -o-filter: grayscale(0%); 

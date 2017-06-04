@@ -1,0 +1,40 @@
+
+/* Display aside above iframe */
+aside {
+    width: 80%;
+    margin: 30px 10% 30px 10%;
+    align-self: center;
+    padding: 0px;
+    float: left;
+    background: #B7B7B7;
+    min-width: 328px; /* Found through the tried-and-true method of "just try it I guess" */
+}
+
+table {
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    float: left;
+}
+
+/* Show the text to the right of spec table */
+aside p {
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 0;    
+}
+
+iframe {
+    width: 80%;
+    height: 900px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+    background: #B7B7B7;
+    min-width: 328px;
+
+    border: none;
+}
